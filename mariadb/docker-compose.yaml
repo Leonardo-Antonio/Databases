@@ -1,0 +1,12 @@
+version: "3.1"
+
+services:
+  db:
+    image: mariadb:latest
+    restart: always
+    environment:
+      MARIADB_USER: leo
+      MARIADB_PASSWORD: cmcx100pre
+      MARIADB_ROOT_PASSWORD: cmcx100pre
+    ports:
+      - 5001:3306
