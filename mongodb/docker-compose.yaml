@@ -6,6 +6,6 @@ services:
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: leo
-      MONGO_INITDB_ROOT_PASSWORD: cmcx100pre
+      MONGO_INITDB_ROOT_PASSWORD: passwordx
     ports:
       - 5002:27017
