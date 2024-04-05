@@ -5,6 +5,6 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_PASSWORD: cmcx100pre
+      POSTGRES_PASSWORD: passwordx
     ports:
       - 5000:5432
