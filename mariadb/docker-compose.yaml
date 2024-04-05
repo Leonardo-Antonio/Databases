@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       MARIADB_USER: leo
-      MARIADB_PASSWORD: cmcx100pre
-      MARIADB_ROOT_PASSWORD: cmcx100pre
+      MARIADB_PASSWORD: passwordx
+      MARIADB_ROOT_PASSWORD: passwordx
     ports:
       - 5001:3306
